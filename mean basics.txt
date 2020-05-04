@@ -1,0 +1,44 @@
+MEAN
+M - MongoDB JS - Backend
+E - Express JS - Middleware
+A - Angular JS - Front end
+N - Node JS - Local server
+
+web applications
+Ionic Framework
+ionic platform android
+mobile applications
+ios applications
+blackberry applications
+
+Full Stack
+LAMP Stack - Larvel,Apache,MySQL,PHP
+MEAN Stack - MongoDB,Express,Angular,Node - Google
+MERN Stack - MongoDB,Express,React,Node - Facebook
+
+SDLC(Software Development Life Cycle)
+* requirement gathering
+* Analysis
+* Coding/Designing
+* Maintenance
+* Deployment
+
+Database
+SQl - mysql,mssql,oracle
+NoSQL - MongoDB,DynamoDB
+
+SQL - Database --> tables --> rows --> columns
+NoSQL - Database --> collections --> documents --> fields
+
+Advantages
+* schema less - one collection can hold multiple documents
+* structure clear
+* no any complex joins
+
+CRUD         MongoDB  Javascript
+C - Create - Insert - Post
+R - Read   - Find   - Get
+U - Update - Update - Put
+D - Delete - Remove - Delete
+
+

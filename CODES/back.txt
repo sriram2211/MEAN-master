@@ -1,0 +1,9 @@
+var app = angular.module('myApp',[]);
+app.controller('myController', function($scope){
+  $scope.saveData = function(users){
+  	$scope.user = [];
+    $scope.user.push(users);
+    console.log($scope.user);
+    $scope.users = {};
+  }
+})

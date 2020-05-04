@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS</title>
+	<script type="text/javascript" src="javascripts/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+  <div class="container" ng-controller="myController">
+    <form class="form-group">
+    	<h1>Form</h1>
+    	<label>Name :</label>
+    	<input class="form-control" type="text" ng-model="users.name">
+    	<label>Roll No :</label>
+    	<input class="form-control" type="text" ng-model="users.rollno">
+    	<label>Branch :</label>
+    	<input class="form-control" type="text" ng-model="users.branch">
+    	<label>College :</label>
+    	<input class="form-control" type="text" ng-model="users.college">
+    	<br>
+    	<button class="btn btn-info" ng-click="saveData(users)">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

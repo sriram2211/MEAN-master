@@ -1,0 +1,26 @@
+MEAN
+M - Mongodb JS - Backend
+E - Express JS - Middleware
+A - Angular JS - Front end
+N - Node JS - Local Server
+
+Software required
+Mongodb
+Nodejs
+Sublime text
+studio 3t
+
+Nodejs
+* nodejs is a server side javascript execution environment
+* its a platform build on google chrome v8 javascript runtime
+
+Express
+* Express is a package in nodejs
+* light weight framework used to build web applications
+* used to build single and multiple page web applications
+
+MongoDB
+* schemaless noSQL database
+* saves data in JSON format
+* easy to pass data from client to server
+

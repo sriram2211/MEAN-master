@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flipkart</title>
+	<link rel="icon" href="images/1.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#form" data-toggle="tab">Form</a></li>
+		<li><a href="#list" data-toggle="tab">List</a></li>
+	</ul>
+	<div class="tab-content">
+		<div id="form" class="tab-pane fade active in">
+			<div class="container">
+			  <form class="form-group">
+			  	<h1 class="text-center text-danger">Feedback Form</h1>
+			  	<label>Username:</label>
+			  	<input class="form-control" type="text">
+			  	<br>
+			  	<br>
+			  	<label>Mb.no:</label>
+			  	<input class="form-control" type="text">
+			  	<br>
+			  	<br>
+			  	<label>cotogeries:</label>
+			  	<select class="form-control">
+			  		<option>Shopping</option>
+			  		<option>Intrests</option>
+			  		<option>Reviews</option>
+			  	</select>
+			  	<br>
+			  	<br>
+			  	<label>products:</label>
+			  	<select class="form-control">
+			  		<option>Mobiles</option>
+			  		<option>Systems</option>
+			  		<option>Accecseries</option>
+			  	</select>
+			  	<br>
+			  	<br>
+			  	<label>Remarks :</label>
+			  	<textarea class="form-control" cols="20" rows="5"></textarea>
+			  	<br>
+			  	<br>
+			  	<button class="btn btn-info">Submit</button>
+			  </form>
+			</div>
+		</div>
+		<div id="list" class="tab-pane fade">
+			<div class="container">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+						    <th>User name</th>
+							<th>Mb.no</th>
+							<th>Catogeries</th>
+							<th>Products</th>
+							<th>Remarks</th>
+							<th>Edit</th>
+							<th>Delete</th>
+						</tr>
+					
+					</thead>
+					<tbody>
+						<td>sriram</td>
+						<td>9912667411</td>
+						<td>shopping</td>
+						<td>mobiles</td>
+						<td>no</td>
+						<td><button class="btn btn-primary">Edit</button></td>
+						<td><button class="btn btn-danger">Remove</button></td>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
